@@ -1,0 +1,46 @@
+Project Creation
+Creating a React project involves several steps, and there are different tools and templates available to streamline the process. One of the most common tools for creating React applications is Create React App (CRA). It's a tool that sets up a new React project with a sensible default configuration.
+
+React Router
+React Router is a popular library for handling navigation and routing in React applications. It enables developers to create single-page applications (SPAs) by managing the URL and rendering different components based on the current URL.
+
+React Components
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+
+React Components List
+Hooks List - using router and update hooks useState, useEffect, useNavigate, useReducer, useRef, useLayoutEffect, useImperativeHandle, 
+AppContext, createContext, useMemo, useCallback etc., 
+
+useState
+useState Hook allows us to track state in a function component.
+State generally refers to data or properties that need to be tracking in an application.
+
+useEffect
+useEffect Hook allows you to perform side effects in your components.
+fetching data, directly updating the DOM, and timers.
+
+useNavigate
+redirect one webdocument page to another web document page
+or we can call component to component
+
+useReducer
+useReducer Hook is similar to the useState Hook.
+If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.
+
+useRef 
+The main use cases for useRef include accessing and interacting with DOM elements, managing mutable values without triggering re-renders, and caching values across renders.
+
+useLayoutEffect
+useLayoutEffect is a hook in React that is similar to useEffect, but it fires synchronously after all DOM mutations. It's often used when you need to perform measurements or manipulate the DOM immediately after the browser has painted. The primary use case for useLayoutEffect is when you need to read from the DOM and then make DOM mutations based on that information before the browser repaints.
+
+useImperativeHandle
+useImperativeHandle is a React Hook that can be used to customize the instance value that is exposed when using React.forwardRef. It allows you to specify what values should be exposed on the ref object or values etc.,
+
+AppContext
+AppContext.Provider is often associated with a context provider component. Context in these frameworks is a way to share values like themes, authentication status, or other application-specific configurations throughout the component tree without having to pass props manually at every level.
+
+useMemo
+useMemo is a React Hook that is used for memoization. Memoization is an optimization technique where the results of expensive function calls are stored and returned when the same inputs occur again. In React, useMemo is typically used to memoize the result of a computation so that it is not recalculated on every render unless the dependencies change.
+
+useCallback
+useCallback is a hook in React that is used to memoize functions, which can be particularly useful in optimizing performance for certain scenarios. It is often used in conjunction with the React.memo higher-order component and is commonly employed in situations where a function reference is passed down to child components.
